@@ -4,7 +4,23 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 23-Sep-2019, 12:26:45 PM
-    Author     : Jean-Loup
+    Created on : 24-Sep-2019, 2:18:28 PM
+    Author     : fahd_
 */
 
+input{
+  width: 40%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+div .try{
+  margin: 0 120px;
+}

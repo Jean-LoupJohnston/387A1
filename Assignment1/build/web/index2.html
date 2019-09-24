@@ -1,14 +1,30 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
   <title>Title of document</title>
+   <link rel="stylesheet" type="text/css" href="newcss1.css"></link>
 </head>
 
 <body>
-  some content
+  <form action="./MyServlet" method="post">
+      Full name: <input type="text" name="fname"></input><br></br>
+      Email: <input type="email" name="email"></input><br></br>
+      <div class="try"> <input type="submit" value="Submit"></input> </div>
+       <select name="format" >
+  <option disabled selected value>Unspecified</option>
+  <option value="xml">xml</option>
+  <option value="html">html</option>
+  <option value="text">text</option>
+  
+</select>
+</form>
+  <a href=index1.html> index1 </a>
 </body>
 
 </html>

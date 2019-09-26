@@ -3,8 +3,8 @@ import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
-import javax.xml.ws.spi.http.HttpContext;
-import javax.xml.ws.spi.http.HttpExchange;
+import com.sun.net.httpserver.HttpContext;
+import com.sun.net.httpserver.HttpExchange;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -20,8 +20,8 @@ public class MyServer  {
     
     public static void main (String[] args) throws IOException
     {
-        HttpServer server = HttpServer.create(new InetSocketAddress(8500),0);
-        com.sun.net.httpserver.HttpContext context = server.createContext("/");
+        HttpServer server = HttpServer.create(new InetSocketAddress(7900),0);
+        HttpContext context = server.createContext("/");
         context.setHandler(MyServer::handleRequest);
         server.start();
     }

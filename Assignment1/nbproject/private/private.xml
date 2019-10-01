@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Jean-Loup/Documents/NetBeansProjects/Assignment1/web/home.html</file>
-            <file>file:/C:/Users/Jean-Loup/Documents/NetBeansProjects/Assignment1/web/index.html</file>
+            <file>file:/C:/Users/Jean-Loup/Documents/NetBeansProjects/Assignment1/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Jean-Loup/Documents/NetBeansProjects/Assignment1/src/java/MyServer.java</file>
             <file>file:/C:/Users/Jean-Loup/Documents/NetBeansProjects/Assignment1/src/java/MyServlet.java</file>
+            <file>file:/C:/Users/Jean-Loup/Documents/NetBeansProjects/Assignment1/web/index1.html</file>
         </group>
     </open-files>
 </project-private>
